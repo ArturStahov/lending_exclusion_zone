@@ -1,0 +1,19 @@
+.page-header {
+  padding-top: 27px;
+  padding-bottom: 185px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding-top: 27px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    background-image: url('../images/img/bg-header.png');
+  }
+}

@@ -1,0 +1,67 @@
+.button-download {
+  margin: 0 auto 60px;
+  width: 133px;
+  height: 124px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  &:hover .button-download__link,
+  &:focus .button-download__link {
+    text-shadow: 0px 10px 5.34px rgba(0, 0, 0, 0.52);
+    color: #efebe7;
+    font-size: 24px;
+  }
+  &:hover .button-download_bgimage_shape {
+    animation-play-state: running;
+    animation-name: button_fon_anomation;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes button_fon_anomation {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.button-download_bgimage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition-property: all;
+
+  z-index: 1;
+}
+.button-download_bgplay-ico {
+  transition: all linear 1s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 88px;
+  height: 88px;
+}
+
+.button-download__link {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-self: center;
+  font-size: 22px;
+  font-family: 'Bauhaus 93';
+  color: rgb(217, 205, 168);
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-shadow: 0px 8px 5.34px rgba(0, 0, 0, 0.52);
+  transition: all linear 1s;
+  z-index: 3;
+}
