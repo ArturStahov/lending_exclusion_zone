@@ -1,0 +1,29 @@
+.section-content {
+  max-width: 560px;
+}
+
+.section-content__title {
+  text-align: center;
+  font-size: 24px;
+  font-family: $section-content__title__font;
+  color: $color__section_text_title;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.section-content__text {
+  font-size: 18px;
+  font-family: 'Open Sans';
+  color: $color__section_text_content;
+  line-height: 1.852;
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    margin: 0 auto;
+  }
+  .section-content__title {
+    color: $md_section_content_title_text_color;
+    text-shadow: 0px 8px 5.34px rgba(0, 0, 0, 0.52);
+  }
+}

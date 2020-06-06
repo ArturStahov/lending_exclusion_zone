@@ -1,0 +1,64 @@
+// #video-bg {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   overflow: hidden;
+//   z-index: 1;
+
+//   background: url(../images/video/video-fon-img.jpg) no-repeat $body_bg_color;
+//   background-size: cover;
+// }
+
+// #video-bg > video {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+// }
+
+// @supports (object-fit: cover) {
+//   #video-bg > video {
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+// }
+
+#header-video-bg > video {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+#header-video-bg {
+  width: 786px;
+  height: 812px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+.bg-video-image-mask {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.2);
+}
+@supports (object-fit: cover) {
+  #header-video-bg > video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+}

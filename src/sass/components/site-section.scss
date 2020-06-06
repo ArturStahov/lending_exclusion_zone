@@ -1,6 +1,14 @@
 .site-section {
-  padding-top: 35px;
+  padding-top: 150px;
   padding-bottom: 65px;
+}
+
+.first-section {
+  padding-top: 800px;
+}
+.section-with-form {
+  padding-top: 200px;
+  position: relative;
 }
 @media (max-width: 768px) {
   .page-header {

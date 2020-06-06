@@ -1,13 +1,23 @@
 @import 'normalize';
 @import 'helpers/variebles';
 @import 'helpers/hidden';
-@import 'base.scss';
+@import 'base';
+
 @import 'components/container';
+
 @import 'components/site-nav';
 @import 'components/page-header';
-@import 'components/site-logo.scss';
-
+@import 'components/site-logo';
 @import 'components/button-download';
 @import 'components/page-header-title';
 @import 'components/site-section';
 @import 'components/section-title';
+@import 'components/section-content-wrapper';
+@import 'components/section-image';
+@import 'components/section-content';
+@import 'components/section-history-bg-image';
+@import 'components/section-history-content-wr';
+@import 'components/video-bg';
+@import 'slider/slider';
+@import 'components/contact-form';
+@import 'components/page-footer';

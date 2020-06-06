@@ -1,15 +1,29 @@
 .section-title {
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 .section-title__text {
   text-align: center;
   font-size: 33.21px;
-  font-family: 'Ultra';
-  color: rgb(246, 204, 153);
+  font-family: $section-title__font;
+  color: $section_title_color_font;
   line-height: 1.2;
   text-transform: uppercase;
   font-weight: 700;
 }
 .section-title__image {
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .section-title {
+    margin: 0 auto 100px;
+  }
+}
+@media (max-width: 425px) {
+  .section-title__image {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .section-title {
+    margin: 0 auto;
+  }
 }

@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": " https://arturstahov.github.io/lending_exclusion_zone/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/ArturStahov/lending_exclusion_zone/.git"
   },
   "author": "Artur Stahov <vtemy.at.ua@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
+    "url": "https://github.com/ArturStahov/lending_exclusion_zone.git/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",

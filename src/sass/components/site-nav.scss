@@ -32,16 +32,24 @@
   }
 }
 
-@media (max-width: 768px) {
-  .site-nav__list {
-    justify-content: center;
-  }
-}
-@media (min-width: 769px) {
-  .site-nav__list {
-    justify-content: flex-end;
-  }
-  .site-nav {
-    max-width: 960px;
-  }
+// @media (max-width: 768px) {
+//   .site-nav__list {
+//     justify-content: center;
+//   }
+// }
+// @media (min-width: 769px) {
+//   .site-nav__list {
+//     justify-content: flex-end;
+//   }
+//   .site-nav {
+//     max-width: 960px;
+//   }
+// }
+
+.site-nav {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }

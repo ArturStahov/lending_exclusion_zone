@@ -1,0 +1,12 @@
+.section-content-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+  .section-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
