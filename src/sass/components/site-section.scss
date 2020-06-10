@@ -16,3 +16,16 @@
     padding-bottom: 35px;
   }
 }
+
+@media (max-width: 767px) {
+  .section-with-form {
+    padding-top: 20px;
+  }
+  .site-section {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .first-section {
+    padding-top: 400px;
+  }
+}

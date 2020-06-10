@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:og="http://ogp.me/ns#">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- og -->
+  <meta property="og:title" content="Exclusion Zone-mobile game">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="ExclusionZone.club">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://exclusionzone.club/" />
+  <meta property="og:image" content="./images/img/baner_opg.jpg">
+  <meta property="og:description" content="- you stand at the began of the zombie apocalypse">
+  <!-- meta seo -->
+  <meta name="keywords" content="HTML, Meta Tags, Metadata">
+  <meta name="description"
+    content="This site for mobile game Exclusion Zone. This game is about a zombie apocalypse. The story of this game is based on real events that took place in Ukraine">
   <title>Exclusion Zone-mobile game</title>
   <!-- Сюда будет всталена ссылка на файл стилей -->
   <!-- inject:css -->
@@ -12,7 +24,6 @@
 </head>
 
 <body>
-
   <!-- Сюда будет всталена ссылка на файл скриптов -->
   <!-- inject:js -->
   <!-- endinject -->
@@ -21,27 +32,27 @@
       <nav class="site-nav">
         <ul class="site-nav__list">
           <li class="site-nav__item">
-            <a class="site-nav__link" href="#">
-              <svg class="site-nav__ico">
+            <a class="site-nav__link" href="#" target="_blanck">
+              <svg class=" site-nav__ico">
                 <title>forum link</title>
-                <use href="./images/sprite/sprite-nav-ico.svg#icon-bubbles3"></use>
+                <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_forum"></use>
               </svg>
             </a>
           </li>
 
           <li class="site-nav__item">
-            <a class="site-nav__link" href="#">
-              <svg class="site-nav__ico">
+            <a class="site-nav__link" href="#" target="_blanck">
+              <svg class=" site-nav__ico">
                 <title>registration link</title>
-                <use href="./images/sprite/sprite-nav-ico.svg#icon-user"></use>
+                <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_user"></use>
               </svg>
             </a>
           </li>
           <li class="site-nav__item">
-            <a class="site-nav__link" href="#">
+            <a class="site-nav__link" href="#contact-form-section">
               <svg class="site-nav__ico">
                 <title>send mail link</title>
-                <use href="./images/sprite/sprite-nav-ico.svg#icon-mail2"></use>
+                <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_mail"></use>
               </svg>
             </a>
           </li>
@@ -87,7 +98,7 @@
     <section class="site-section first-section">
       <div class="container">
         <div class="section-title">
-          <h2 class="section-title__text">Section title</h2>
+          <h2 class="section-title__text">stay alive</h2>
           <img src="./images/img/section-image-patrons.png" alt="section title image" class="section-title__image" />
         </div>
         <div class="section-content-wrapper">
@@ -118,26 +129,39 @@
           <div class="section-content">
             <h2 class="section-content__title">History Exclusion Zone</h2>
             <p class="section-content__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              harum, accusantium dignissimos dicta quod quo? Impedit quo
-              deserunt similique laborum sunt, consectetur debitis dolore
-              nostrum, eaque hic eum porro quia. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Dolores harum, accusantium
-              dignissimos dicta quod quo? Impedit quo deserunt similique
-              laborum sunt, consectetur debitis dolore nostrum, eaque hic eum
-              porro quia. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Dolores harum, accusantium dignissimos dicta quod quo?
-              Impedit quo deserunt similique laborum sunt, consectetur debitis
-              dolore nostrum, eaque hic eum porro quia.Dolores harum,
-              accusantium dignissimos dicta quod quo? Impedit quo deserunt
-              similique laborum sunt, consectetur debitis dolore nostrum,
-              eaque hic eum porro quia.
+              The game about Chernobyl exclusion zone 30 years after the Chernobyl accident.
+                Zombie apocalypse started here!
+                Due to the disaster that occurred on the territory of the former URSR in 1986 at the Chernobyl nuclear
+              power plant, a
+              huge part of the territory was evacuated by creating the so-called Exclusion Zone.
+                After 30 years, due to the action of increased radiation, unexplained facts began to occur in the form
+              of mutations of
+              living flesh. In the zone, experiments and studies on the development of mutagens began, but at one point
+              it became
+              impossible to control the mutation.
+                Under your control, the post, the former laboratory, is equipped with a workshop, a warehouse, a
+              generator and even
+              transport.
+                Your main goal is to prevent a crowd of zombie mutants from breaking into your shelter. To do this, you
+              need to
+              provide the post with provisions making forays into the zone.
+              Survive at any cost!!!
+                The main resource for survival - ammunition, they also became the main currency in the new world. You
+              will also need a
+              lot of effort to extract clean water and fuel for your generator and transport. For the good, you have a
+              workshop where
+              it is possible, in the presence of various kinds of components, to make this or that resource.
+                You need the resources to upgrade your defenses, vehicles, weapons.
+                Develop your post “Shelter”, not quick, it will not be easy to do this - but such is the price to
+              survive.
+                Develop your character by increasing his level and characteristics. You can choose one of the
+              specializations.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="site-section section-with-form">
+    <section class="site-section section-with-form" id="contact-form-section">
       <div class="container">
         <div class="section-title">
           <h2 class="section-title__text">Contact us</h2>
@@ -147,8 +171,8 @@
           <input placeholder="your Name *" id="user-name" name="user-name" type="text" maxlength="50" minlength="2"
             required />
           <input placeholder="your e-mail *" id="user-email" name="email" type="email" maxlength="50" required />
-          <textarea placeholder="Your message*" id="message" name="message" maxlength="500" minlength="2"
-            required></textarea>
+          <textarea placeholder="Your message*" id="message" name="message" maxlength="500" minlength="2" required>
+          </textarea>
           <button class="button__submit" type="submit">Send message</button>
         </div>
       </div>
@@ -158,35 +182,35 @@
     <div class="container">
       <ul class="site-nav__list footer-nav">
         <li class="site-nav__item">
-          <a class="site-nav__link" href="#">
-            <svg class="site-nav__ico">
-              <title>forum link</title>
-              <use href="./images/sprite/sprite-nav-ico.svg#icon-bubbles3"></use>
+          <a class="site-nav__link" href="https://www.youtube.com/channel/UCMwlgTz5E6XRkSMbVFb0eXg" target="_blanck">
+            <svg class=" site-nav__ico">
+              <title>link youtube</title>
+              <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_youtube"></use>
             </svg>
           </a>
         </li>
 
         <li class="site-nav__item">
-          <a class="site-nav__link" href="#">
-            <svg class="site-nav__ico">
-              <title>registration link</title>
-              <use href="./images/sprite/sprite-nav-ico.svg#icon-user"></use>
+          <a class="site-nav__link" href="https://vk.com/exclusion_zone_game" target="_blanck">
+            <svg class=" site-nav__ico">
+              <title>link vk</title>
+              <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_vk"></use>
             </svg>
           </a>
         </li>
         <li class="site-nav__item">
-          <a class="site-nav__link" href="#">
-            <svg class="site-nav__ico">
-              <title>send mail link</title>
-              <use href="./images/sprite/sprite-nav-ico.svg#icon-mail2"></use>
+          <a class="site-nav__link" href="https://www.facebook.com/groups/exclusionzonegame" target="_blanck">
+            <svg class=" site-nav__ico">
+              <title>link facebook</title>
+              <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_facebook"></use>
             </svg>
           </a>
         </li>
         <li class="site-nav__item">
-          <a class="site-nav__link" href="#">
+          <a class="site-nav__link" href="https://www.instagram.com/exclusionzone_mobile_game/" target="_blanck">
             <svg class="site-nav__ico">
-              <title>send mail link</title>
-              <use href="./images/sprite/sprite-nav-ico.svg#icon-mail2"></use>
+              <title>link instagram</title>
+              <use href="./images/sprite/sprite-nav-ico.svg#icon-ico_instagram"></use>
             </svg>
           </a>
         </li>

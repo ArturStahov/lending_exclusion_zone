@@ -7,8 +7,8 @@
 
 .site-nav__link {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-color: $ico_fon;
   border-radius: 50%;
   display: flex;
@@ -27,24 +27,14 @@
   &:focus .site-nav__link {
     background-color: $hover_ico_fon;
   }
+  &:hover .site-nav__ico,
+  &:focus .site-nav__ico {
+    fill: #6f0b0b;
+  }
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-
-// @media (max-width: 768px) {
-//   .site-nav__list {
-//     justify-content: center;
-//   }
-// }
-// @media (min-width: 769px) {
-//   .site-nav__list {
-//     justify-content: flex-end;
-//   }
-//   .site-nav {
-//     max-width: 960px;
-//   }
-// }
 
 .site-nav {
   position: absolute;
