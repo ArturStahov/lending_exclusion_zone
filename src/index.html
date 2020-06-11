@@ -24,9 +24,7 @@
 </head>
 
 <body>
-  <!-- Сюда будет всталена ссылка на файл скриптов -->
-  <!-- inject:js -->
-  <!-- endinject -->
+
   <header class="page-header">
     <div class="container">
       <nav class="site-nav">
@@ -103,29 +101,30 @@
         </div>
         <div class="section-content-wrapper">
           <img class="section-image" src="./images/img/kyzmich.png" alt="image stalker" width="426" height="535" />
+
+          <!-- SLIDER -->
           <div class="slider">
             <div class="slider-img-block">
-              <img class="slider-img" src="./images/slider/slider-img/1.jpg" alt="slider image" width="450"
-                height="255" />
+              <div id="viewport">
+                <ul id="slidewrapper">
+                  <li class="slide"><img src="./images/slider/slider-img/1.jpg" alt="1" class="slide-img"></li>
+
+                </ul>
+              </div>
             </div>
-            <div class="slider-cntrl-block">
-              <button class="slider-left-arrow" type="button"></button>
-              <button class="slider-right-arrow" type="button"></button>
+            <div class="slider-cntrl-block" id="prev-next-btns">
+              <button id="prev-btn" class="slider-left-arrow" type="button"></button>
+              <button id="next-btn" class="slider-right-arrow" type="button"></button>
             </div>
           </div>
+          <!--And SLIDER -->
         </div>
       </div>
     </section>
     <section class="site-section section-history-bg-image">
       <div class="container">
         <div class="section-content-wrapper section-history-content-wr">
-          <!-- <img
-              class="section-image"
-              src="./images/img/section-image.png"
-              alt="image stalker"
-              width="693"
-              height="663"
-            /> -->
+
           <div class="section-content">
             <h2 class="section-content__title">History Exclusion Zone</h2>
             <p class="section-content__text">
@@ -217,6 +216,9 @@
       </ul>
     </div>
   </footer>
+  <!-- Сюда будет всталена ссылка на файл скриптов -->
+  <!-- inject:js -->
+  <!-- endinject -->
 </body>
 
 </html>
