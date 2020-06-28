@@ -1,0 +1,20 @@
+<section class="site-section section-with-form" id="contact-form-section">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="section-title__text">Contact us</h2>
+            <img src="./images/img/footer-doll.png" alt="section title image" class="section-title__image" />
+        </div>
+
+        <!-- contact-form -->
+        <form class="contact-form" enctype="multipart/form-data" method="post" id="form"
+            onsubmit="send(event, 'send.php')">
+            <input placeholder="your Name *" id="user-name" name="user-name" type="text" maxlength="50" minlength="2"
+                required />
+            <input placeholder="your e-mail *" id="user-email" name="e-mail" type="email" maxlength="50" required />
+            <textarea placeholder="Your message*" id="message" name="message" maxlength="500" minlength="2" required>
+          </textarea>
+            <button id="btn" class="button__submit" type="submit">Send message</button>
+        </form>
+        <div id="result" class="result-block"></div>
+    </div>
+</section>
