@@ -3,10 +3,14 @@
 }
 
 .button-download {
-  margin: 0 auto 60px;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 420px;
+  left: 50%;
+  z-index: 999;
+
   width: 133px;
   height: 124px;
-
   display: flex;
   justify-content: center;
   &:hover .button-download__link,
@@ -22,6 +26,9 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+  }
+  @media (max-width: 767px) {
+    top: 325px;
   }
 }
 
@@ -61,24 +68,12 @@
   transform: translate(-50%, -50%);
   align-self: center;
   font-size: 22px;
-  font-family: 'Bauhaus 93';
+  font-family: 'Amaranth';
+  font-weight: 700;
   color: rgb(217, 205, 168);
   line-height: 1.6;
   text-transform: uppercase;
   text-shadow: 0px 8px 5.34px rgba(0, 0, 0, 0.52);
   transition: all linear 1s;
   z-index: 3;
-}
-
-.button-download {
-  position: absolute;
-  transform: translateX(-50%);
-  top: 420px;
-  left: 50%;
-  z-index: 999;
-}
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .button-download {
-    top: 100px;
-  }
 }

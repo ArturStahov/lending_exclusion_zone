@@ -6,13 +6,8 @@
   top: 675px;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media (max-width: 767px) {
-  .contact-form {
-    top: 375px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  @media (max-width: 767px) {
+    top: 275px;
   }
 }
 
@@ -21,6 +16,9 @@
   height: 55px;
   margin-bottom: 30px;
   background-color: #626261;
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
+  }
 }
 
 #user-email {
@@ -28,6 +26,9 @@
   height: 55px;
   margin-bottom: 30px;
   background-color: #626261;
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
+  }
 }
 #message {
   margin-bottom: 30px;
@@ -45,6 +46,9 @@
   font-weight: 400;
   line-height: 1.2;
   outline: none;
+  @media (max-width: 767px) {
+    height: 150px;
+  }
 }
 input {
   border-style: solid;
@@ -78,14 +82,14 @@ textarea:required:focus:invalid:not(:placeholder-shown) {
 input::placeholder {
   font-size: 0.875rem;
   color: rgb(187, 187, 187);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   line-height: 1.2;
 }
 textarea::placeholder {
   font-size: 0.875rem;
   color: rgb(187, 187, 187);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -99,6 +103,7 @@ textarea::placeholder {
   border-radius: 3px;
   font-size: 20px;
   font-family: $section-title__font;
+  font-weight: 700;
   color: rgb(2, 1, 1);
   line-height: 1.2;
   text-transform: uppercase;

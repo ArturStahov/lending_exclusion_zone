@@ -3,11 +3,12 @@
 }
 
 .sim-slider {
-  max-width: 1000px;
-  min-width: 320px;
   margin: 0 auto;
   padding-top: 100px;
   background-repeat: no-repeat;
+  @media (max-width: 767px) {
+    padding-top: 30px;
+  }
   @media (min-width: 768px) {
     width: 584px;
     height: 547px;
