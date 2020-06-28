@@ -1,4 +1,3 @@
-'use strict';
 function Sim(sldrId) {
   let id = document.getElementById(sldrId);
   if (id) {
@@ -77,7 +76,7 @@ Sim.prototype.elemNext = function(num) {
 
 Sim.prototype.dotOn = function(num) {
   this.indicatorDotsAll[num].style.cssText =
-    'background-image: url("../images/slider/dot-bg-hover.png"); cursor:pointer;opacity: 0.6;';
+    'background-image: url("./images/slider/dot-bg-hover.png"); cursor:pointer;opacity: 0.6;';
 };
 
 Sim.prototype.dotOff = function(num) {
